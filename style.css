@@ -1,0 +1,101 @@
+body{
+    background: #2C2B3D;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.page{
+    margin: 0 auto 0;
+    padding-top:  65px;
+    padding-right: 99px;
+    padding-bottom: 0px;
+    padding-left: 99px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 64px;
+    width: 300px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500px;
+    font-family: 'JetBrains Mono', monospace;
+    color: antiquewhite;
+    
+}
+ul li a{
+text-decoration: none;
+}
+ul li a:hover{
+    cursor: pointer;
+    color: #00BFA6;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 170px;
+}
+h1{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: normal;
+    font-family: 'JetBrains Mono', monospace;
+    color: antiquewhite;
+    margin-bottom: 60px;
+}
+h1 span{
+    color: #00BFA6;
+    font-weight: bold;
+   
+}
+p{
+    color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 28px;
+    text-align: center;
+}
+p span{
+    color: #00BFA6;
+    font-weight: bold;
+    opacity: 0.6; 
+}
+#line{
+    width: 568px;
+    height: 0px;
+    border: 1px #00BFA6 solid;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-left: auto;
+}
+footer{
+    text-align: center;
+    padding: 157 auto 0px;
+    color: antiquewhite;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    font-weight: 28px;
+}
+footer a{
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
+    
+}
+#cadeado {
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
